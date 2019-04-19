@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94F30804226A145800303C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F30803226A145800303C82 /* AppDelegate.swift */; };
+		94F30806226A145800303C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F30805226A145800303C82 /* ViewController.swift */; };
+		94F30809226A145800303C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F30807226A145800303C82 /* Main.storyboard */; };
+		94F3080C226A145800303C82 /* Photo_Machine_Learning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94F3080A226A145800303C82 /* Photo_Machine_Learning.xcdatamodeld */; };
+		94F3080E226A145C00303C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F3080D226A145C00303C82 /* Assets.xcassets */; };
+		94F30811226A145C00303C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F3080F226A145C00303C82 /* LaunchScreen.storyboard */; };
+		94F3081C226A145C00303C82 /* Photo_Machine_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3081B226A145C00303C82 /* Photo_Machine_LearningTests.swift */; };
+		94F30827226A145C00303C82 /* Photo_Machine_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F30826226A145C00303C82 /* Photo_Machine_LearningUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94F30818226A145C00303C82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F307F8226A145800303C82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F307FF226A145800303C82;
+			remoteInfo = "Photo Machine Learning";
+		};
+		94F30823226A145C00303C82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F307F8226A145800303C82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F307FF226A145800303C82;
+			remoteInfo = "Photo Machine Learning";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94F30800226A145800303C82 /* Photo Machine Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Machine Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F30803226A145800303C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94F30805226A145800303C82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94F30808226A145800303C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94F3080B226A145800303C82 /* Photo_Machine_Learning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photo_Machine_Learning.xcdatamodel; sourceTree = "<group>"; };
+		94F3080D226A145C00303C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94F30810226A145C00303C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94F30812226A145C00303C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F30817226A145C00303C82 /* Photo Machine LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo Machine LearningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F3081B226A145C00303C82 /* Photo_Machine_LearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_Machine_LearningTests.swift; sourceTree = "<group>"; };
+		94F3081D226A145C00303C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F30822226A145C00303C82 /* Photo Machine LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo Machine LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F30826226A145C00303C82 /* Photo_Machine_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_Machine_LearningUITests.swift; sourceTree = "<group>"; };
+		94F30828226A145C00303C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94F307FD226A145800303C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F30814226A145C00303C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F3081F226A145C00303C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94F307F7226A145800303C82 = {
+			isa = PBXGroup;
+			children = (
+				94F30802226A145800303C82 /* Photo Machine Learning */,
+				94F3081A226A145C00303C82 /* Photo Machine LearningTests */,
+				94F30825226A145C00303C82 /* Photo Machine LearningUITests */,
+				94F30801226A145800303C82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94F30801226A145800303C82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94F30800226A145800303C82 /* Photo Machine Learning.app */,
+				94F30817226A145C00303C82 /* Photo Machine LearningTests.xctest */,
+				94F30822226A145C00303C82 /* Photo Machine LearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94F30802226A145800303C82 /* Photo Machine Learning */ = {
+			isa = PBXGroup;
+			children = (
+				94F30803226A145800303C82 /* AppDelegate.swift */,
+				94F30805226A145800303C82 /* ViewController.swift */,
+				94F30807226A145800303C82 /* Main.storyboard */,
+				94F3080D226A145C00303C82 /* Assets.xcassets */,
+				94F3080F226A145C00303C82 /* LaunchScreen.storyboard */,
+				94F30812226A145C00303C82 /* Info.plist */,
+				94F3080A226A145800303C82 /* Photo_Machine_Learning.xcdatamodeld */,
+			);
+			path = "Photo Machine Learning";
+			sourceTree = "<group>";
+		};
+		94F3081A226A145C00303C82 /* Photo Machine LearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				94F3081B226A145C00303C82 /* Photo_Machine_LearningTests.swift */,
+				94F3081D226A145C00303C82 /* Info.plist */,
+			);
+			path = "Photo Machine LearningTests";
+			sourceTree = "<group>";
+		};
+		94F30825226A145C00303C82 /* Photo Machine LearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94F30826226A145C00303C82 /* Photo_Machine_LearningUITests.swift */,
+				94F30828226A145C00303C82 /* Info.plist */,
+			);
+			path = "Photo Machine LearningUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94F307FF226A145800303C82 /* Photo Machine Learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F3082B226A145C00303C82 /* Build configuration list for PBXNativeTarget "Photo Machine Learning" */;
+			buildPhases = (
+				94F307FC226A145800303C82 /* Sources */,
+				94F307FD226A145800303C82 /* Frameworks */,
+				94F307FE226A145800303C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo Machine Learning";
+			productName = "Photo Machine Learning";
+			productReference = 94F30800226A145800303C82 /* Photo Machine Learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94F30816226A145C00303C82 /* Photo Machine LearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F3082E226A145C00303C82 /* Build configuration list for PBXNativeTarget "Photo Machine LearningTests" */;
+			buildPhases = (
+				94F30813226A145C00303C82 /* Sources */,
+				94F30814226A145C00303C82 /* Frameworks */,
+				94F30815226A145C00303C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F30819226A145C00303C82 /* PBXTargetDependency */,
+			);
+			name = "Photo Machine LearningTests";
+			productName = "Photo Machine LearningTests";
+			productReference = 94F30817226A145C00303C82 /* Photo Machine LearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94F30821226A145C00303C82 /* Photo Machine LearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F30831226A145C00303C82 /* Build configuration list for PBXNativeTarget "Photo Machine LearningUITests" */;
+			buildPhases = (
+				94F3081E226A145C00303C82 /* Sources */,
+				94F3081F226A145C00303C82 /* Frameworks */,
+				94F30820226A145C00303C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94F30824226A145C00303C82 /* PBXTargetDependency */,
+			);
+			name = "Photo Machine LearningUITests";
+			productName = "Photo Machine LearningUITests";
+			productReference = 94F30822226A145C00303C82 /* Photo Machine LearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94F307F8226A145800303C82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Peter Jenkin";
+				TargetAttributes = {
+					94F307FF226A145800303C82 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					94F30816226A145C00303C82 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 94F307FF226A145800303C82;
+					};
+					94F30821226A145C00303C82 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 94F307FF226A145800303C82;
+					};
+				};
+			};
+			buildConfigurationList = 94F307FB226A145800303C82 /* Build configuration list for PBXProject "Photo Machine Learning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94F307F7226A145800303C82;
+			productRefGroup = 94F30801226A145800303C82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94F307FF226A145800303C82 /* Photo Machine Learning */,
+				94F30816226A145C00303C82 /* Photo Machine LearningTests */,
+				94F30821226A145C00303C82 /* Photo Machine LearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94F307FE226A145800303C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F30811226A145C00303C82 /* LaunchScreen.storyboard in Resources */,
+				94F3080E226A145C00303C82 /* Assets.xcassets in Resources */,
+				94F30809226A145800303C82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F30815226A145C00303C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F30820226A145C00303C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94F307FC226A145800303C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F30806226A145800303C82 /* ViewController.swift in Sources */,
+				94F30804226A145800303C82 /* AppDelegate.swift in Sources */,
+				94F3080C226A145800303C82 /* Photo_Machine_Learning.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F30813226A145C00303C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F3081C226A145C00303C82 /* Photo_Machine_LearningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94F3081E226A145C00303C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F30827226A145C00303C82 /* Photo_Machine_LearningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94F30819226A145C00303C82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F307FF226A145800303C82 /* Photo Machine Learning */;
+			targetProxy = 94F30818226A145C00303C82 /* PBXContainerItemProxy */;
+		};
+		94F30824226A145C00303C82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F307FF226A145800303C82 /* Photo Machine Learning */;
+			targetProxy = 94F30823226A145C00303C82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94F30807226A145800303C82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F30808226A145800303C82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94F3080F226A145C00303C82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F30810226A145C00303C82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94F30829226A145C00303C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94F3082A226A145C00303C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94F3082C226A145C00303C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TVT39HT56;
+				INFOPLIST_FILE = "Photo Machine Learning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peternjenkin.Photo-Machine-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94F3082D226A145C00303C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TVT39HT56;
+				INFOPLIST_FILE = "Photo Machine Learning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peternjenkin.Photo-Machine-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94F3082F226A145C00303C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TVT39HT56;
+				INFOPLIST_FILE = "Photo Machine LearningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peternjenkin.Photo-Machine-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Machine Learning.app/Photo Machine Learning";
+			};
+			name = Debug;
+		};
+		94F30830226A145C00303C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TVT39HT56;
+				INFOPLIST_FILE = "Photo Machine LearningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peternjenkin.Photo-Machine-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Machine Learning.app/Photo Machine Learning";
+			};
+			name = Release;
+		};
+		94F30832226A145C00303C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TVT39HT56;
+				INFOPLIST_FILE = "Photo Machine LearningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peternjenkin.Photo-Machine-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photo Machine Learning";
+			};
+			name = Debug;
+		};
+		94F30833226A145C00303C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TVT39HT56;
+				INFOPLIST_FILE = "Photo Machine LearningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peternjenkin.Photo-Machine-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photo Machine Learning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94F307FB226A145800303C82 /* Build configuration list for PBXProject "Photo Machine Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F30829226A145C00303C82 /* Debug */,
+				94F3082A226A145C00303C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F3082B226A145C00303C82 /* Build configuration list for PBXNativeTarget "Photo Machine Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F3082C226A145C00303C82 /* Debug */,
+				94F3082D226A145C00303C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F3082E226A145C00303C82 /* Build configuration list for PBXNativeTarget "Photo Machine LearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F3082F226A145C00303C82 /* Debug */,
+				94F30830226A145C00303C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F30831226A145C00303C82 /* Build configuration list for PBXNativeTarget "Photo Machine LearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F30832226A145C00303C82 /* Debug */,
+				94F30833226A145C00303C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94F3080A226A145800303C82 /* Photo_Machine_Learning.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94F3080B226A145800303C82 /* Photo_Machine_Learning.xcdatamodel */,
+			);
+			currentVersion = 94F3080B226A145800303C82 /* Photo_Machine_Learning.xcdatamodel */;
+			path = Photo_Machine_Learning.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94F307F8226A145800303C82 /* Project object */;
+}
