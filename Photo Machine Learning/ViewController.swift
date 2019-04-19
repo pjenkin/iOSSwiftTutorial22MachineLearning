@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import Vision
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var resultLabel: UILabel!
+    
+    var chosenImage = CIImage()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,10 +72,20 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         self.dismiss(animated: true, completion: nil)
         
+        if let ciImage = CIImage(image: imageView.image!)    // pass image into a Core Image instance
+        {
+            self.chosenImage = ciImage
+        }
+        
+        recogniseImage(image: chosenImage)
         // info is a dictionary
     }
 
-    
+    // function in which to do ML-based recognition in image
+    func recogniseImage(image: CIImage)     // NB CIImage (Core Image) not UIImage
+    {
+        
+    }
     
     
 }

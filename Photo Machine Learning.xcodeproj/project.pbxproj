@@ -15,6 +15,7 @@
 		94F30811226A145C00303C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F3080F226A145C00303C82 /* LaunchScreen.storyboard */; };
 		94F3081C226A145C00303C82 /* Photo_Machine_LearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3081B226A145C00303C82 /* Photo_Machine_LearningTests.swift */; };
 		94F30827226A145C00303C82 /* Photo_Machine_LearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F30826226A145C00303C82 /* Photo_Machine_LearningUITests.swift */; };
+		94F30835226A235300303C82 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 94F30834226A235300303C82 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		94F30822226A145C00303C82 /* Photo Machine LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo Machine LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F30826226A145C00303C82 /* Photo_Machine_LearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_Machine_LearningUITests.swift; sourceTree = "<group>"; };
 		94F30828226A145C00303C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F30834226A235300303C82 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				94F3080F226A145C00303C82 /* LaunchScreen.storyboard */,
 				94F30812226A145C00303C82 /* Info.plist */,
 				94F3080A226A145800303C82 /* Photo_Machine_Learning.xcdatamodeld */,
+				94F30834226A235300303C82 /* GoogLeNetPlaces.mlmodel */,
 			);
 			path = "Photo Machine Learning";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				94F30806226A145800303C82 /* ViewController.swift in Sources */,
 				94F30804226A145800303C82 /* AppDelegate.swift in Sources */,
 				94F3080C226A145800303C82 /* Photo_Machine_Learning.xcdatamodeld in Sources */,
+				94F30835226A235300303C82 /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
