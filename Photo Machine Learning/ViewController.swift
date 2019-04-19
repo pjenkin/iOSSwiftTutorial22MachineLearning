@@ -77,13 +77,37 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             self.chosenImage = ciImage
         }
         
-        recogniseImage(image: chosenImage)
-        // info is a dictionary
+        recogniseImage(image: chosenImage)      // start recognition
+        
     }
 
     // function in which to do ML-based recognition in image
     func recogniseImage(image: CIImage)     // NB CIImage (Core Image) not UIImage
     {
+        resultLabel.text = "Finding ..."
+        
+        if let model = try? VNCoreMLModel(for: GoogLeNetPlaces().model)
+        {
+            let request = VNCoreMLRequest(model: model, completionHandler:
+            {
+                (vnrequest, error) in
+                if let results = vnrequest.results as? [VNClassificationObservation]    // cf Haar
+                {
+                    let topResult = results.first
+                    
+                    DispatchQueue.main.async {
+                        // running async on different thread
+                        let confidence = (topResult?.confidence)! * 100    // probability stats, as 0..1
+                    
+                        
+                        self.resultLabel.text = "\(confidence)% tis a \(String(describing: topResult?.identifier))"
+                        //self.resultLabel.text = "\(confidence)% tis a \(topResult?.identifier)"
+                        
+                        // VNClassificationObservation.identifier will be "vehicle", "tree", "mountain" from Places205-GoogLeNet/GoogLeNetPlaces.mlmodel
+                    }
+                }
+            })
+        }
         
     }
     
