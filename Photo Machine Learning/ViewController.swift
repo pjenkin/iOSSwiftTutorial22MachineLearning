@@ -93,20 +93,37 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 (vnrequest, error) in
                 if let results = vnrequest.results as? [VNClassificationObservation]    // cf Haar
                 {
-                    let topResult = results.first
-                    
-                    DispatchQueue.main.async {
-                        // running async on different thread
-                        let confidence = (topResult?.confidence)! * 100    // probability stats, as 0..1
-                    
-                        
-                        self.resultLabel.text = "\(confidence)% tis a \(String(describing: topResult?.identifier))"
-                        //self.resultLabel.text = "\(confidence)% tis a \(topResult?.identifier)"
-                        
-                        // VNClassificationObservation.identifier will be "vehicle", "tree", "mountain" from Places205-GoogLeNet/GoogLeNetPlaces.mlmodel
+                    if let topResult = results.first        // NB if... for optional binding - to avoid "Optional" prefix on results later
+                    {
+                        DispatchQueue.main.async {
+                            // running async on different thread
+                            let confidence = (topResult.confidence) * 100    // probability stats, as 0..1
+                            
+                            
+                            self.resultLabel.text = "\(String(format: "%.2f",confidence))% sure tis a \(topResult.identifier)"
+                            // VNClassificationObservation.identifier will be "vehicle", "tree", "mountain" from Places205-GoogLeNet/GoogLeNetPlaces.mlmodel
+                        }
                     }
                 }
             })
+            
+            // https://developer.apple.com/documentation/dispatch/dispatchqos
+            // https://developer.apple.com/documentation/dispatch/dispatchqueue/2300077-global
+            // https://developer.apple.com/library/archive/documentation/Performance/Conceptual/EnergyGuide-iOS/PrioritizeWorkWithQoS.html
+            
+            // handler for call to perform ML model image recognition
+            let handler = VNImageRequestHandler(ciImage: image)
+            DispatchQueue.global(qos: .userInteractive).async {
+                do
+                {
+                    try handler.perform([request])
+                    // NB VNImageRequestHandler expecting an array of requests (only 1 at this time)
+                }
+                catch
+                {
+                    print("Error in performing Image Request")      // log
+                }
+            }
         }
         
     }

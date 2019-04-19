@@ -27,7 +27,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFi-kk-cLA">
-                                <rect key="frame" x="97" y="468" width="180" height="21"/>
+                                <rect key="frame" x="16" y="468" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -48,7 +48,7 @@
                             <constraint firstItem="h0W-lG-Dby" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PnU-4z-0Jj"/>
                             <constraint firstItem="h0W-lG-Dby" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="dyD-5R-Oyx"/>
                             <constraint firstItem="fFi-kk-cLA" firstAttribute="top" secondItem="h0W-lG-Dby" secondAttribute="bottom" constant="26" id="qz9-9f-S8a"/>
-                            <constraint firstItem="fFi-kk-cLA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="vbu-QY-Ecf"/>
+                            <constraint firstItem="fFi-kk-cLA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="vbu-QY-Ecf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fFi-kk-cLA" secondAttribute="bottom" constant="178" id="wQU-xm-P4I"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
